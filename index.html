@@ -430,8 +430,7 @@
 
     document.addEventListener('DOMContentLoaded', startLightning);
     document.addEventListener('DOMContentLoaded', () => {
-        document.body.addEventListener('click', () => {
-            playTestSound();
+        document.body.addEventListener('load', () => {
             startLightning();
         }, { once: true }); // Ensure it only runs once on the first click
     });
