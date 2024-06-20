@@ -451,14 +451,14 @@ function playBackgroundThunder() {
     
 document.addEventListener('DOMContentLoaded', () => {
     // Attempt to play a silent sound to bypass autoplay policy
-    const thunderSound = document.getElementById('thunder-sound');
-    if (thunderSound) {
-        thunderSound.volume = 0;
-        thunderSound.play().then(() => {
+    const backgroundThunder = document.getElementById('background-thunder');
+    if (backgroundThunder) {
+        backgroundThunder.volume = 0;
+        backgroundThunder.play().then(() => {
             console.log("Silent sound played to initialize audio context");
-            thunderSound.pause();
-            thunderSound.volume = 1;
-            playThunderSound();
+            backgroundThunder.pause();
+            backgroundThunder.volume = 0.5; // Adjust volume as needed
+            playBackgroundThunder();
             startLightning();
         }).catch(error => {
             console.error("Error playing silent sound:", error);
