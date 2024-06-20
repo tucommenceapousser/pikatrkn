@@ -431,11 +431,23 @@
     }
 
     document.addEventListener('DOMContentLoaded', startLightning);
-    document.addEventListener('DOMContentLoaded', () => {
-        document.body.addEventListener('click', () => {
+    
+document.addEventListener('DOMContentLoaded', () => {
+    // Attempt to play a silent sound to bypass autoplay policy
+    const thunderSound = document.getElementById('thunder-sound');
+    if (thunderSound) {
+        thunderSound.volume = 0;
+        thunderSound.play().then(() => {
+            console.log("Silent sound played to initialize audio context");
+            thunderSound.pause();
+            thunderSound.volume = 1;
+            playThunderSound();
             startLightning();
-        }, { once: true }); // Ensure it only runs once on the first click
-    });
+        }).catch(error => {
+            console.error("Error playing silent sound:", error);
+        });
+    }
+});
   </script>
 </body>
 </html>
