@@ -1,0 +1,42 @@
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff9900; /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 9999; /* Assurez-vous qu'il est au-dessus de tout le contenu */
+  animation: blink 0.5s infinite alternate; /* Animation de clignotement */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre légère */
+}
+.alert-image {
+  max-width: 100%; /* Ajustez la largeur si nécessaire */
+  height: auto;
+}
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+.custom-alertt {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #00ff00; /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ff0000;
+  text-align: center;
+  z-index: 9999; /* Assurez-vous qu'il est au-dessus de tout le contenu */
+  animation: blink 0.5s infinite alternate; /* Animation de clignotement */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre légère */
+}

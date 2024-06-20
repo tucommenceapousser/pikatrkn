@@ -1,0 +1,75 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0d0d0d;
+  color: #33ff33;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#content {
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+  color: #33ff33;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff00ff;
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.explanation {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: left;
+  background-color: #262626;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#contact {
+  background-color: #333;
+  color: #00ff00;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.instagram-qrcode {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
