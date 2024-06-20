@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile of Trhacknon</title>
+  <meta name="description" content="Profile of Trhacknon - A tribute to Anonymous, Black Bloc, and all fighters for a better world.">
+  <meta name="keywords" content="Trhacknon, Anonymous, Black Bloc, activism, hackers, social justice">
+  <meta name="author" content="Trhacknon">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Profile of Trhacknon">
+  <meta property="og:description" content="A tribute to Anonymous, Black Bloc, and all fighters for a better world.">
+  <meta property="og:image" content="https://pikatrkn.replit.app/prev.png">
+  <meta property="og:url" content="https://pikatrkn.replit.app">
+  <meta property="og:site_name" content="Profile of Trhacknon">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Profile of Trhacknon">
+  <meta name="twitter:description" content="A tribute to Anonymous, Black Bloc, and all fighters for a better world.">
+  <meta name="twitter:image" content="https://pikatrkn.replit.app/prev.png">
+
+  <!-- Other Meta Tags -->
+  <meta property="article:author" content="Trhacknon">
+  <meta property="article:published_time" content="2024-06-19T08:00:00Z">
+  <meta property="article:modified_time" content="2024-06-19T08:15:00Z">
+
+  <!-- Link tags -->
+  <link rel="canonical" href="https://pikatrkn.replit.app">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,300">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="https://rawgit.com/marvelapp/devices.css/master/assets/devices.min.css">
+  <link rel="stylesheet" href="./pika.css">
+  <link rel="stylesheet" href="./alert.css">
+
+  <!-- Preload resources -->
+  <link rel="preload" href="https://pikatrkn.replit.app/prev.png" as="image">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Contenu de la page -->
+  <style>
+    body {
+      background: #1d1f21;
+      color: #c5c6c7;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+    }
+    .profile-card {
+      background: #282a36;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      max-width: 600px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    .profile-card h1 {
+      color: peachpuff;
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+    .profile-card p {
+      color: #ff0000;
+      margin: 0.5em 0;
+    }
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .skill {
+      background: #50fa7b;
+      color: #282a36;
+      border-radius: 20px;
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 0.9em;
+      font-weight: 700;
+    }
+    .wrapper {
+      margin-top: 50px;
+    }
+    .svg-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    button.copy-button {
+        background-color: blueviolet; /* Couleur de fond */
+        color: black; /* Couleur du texte */
+        border-width: 5px 10px 10px 5;
+        border-color: lime red lime red;/* Pas de bordure */
+        border-style: solid;
+
+        padding: 10px 20px; /* Espacement intérieur */
+        cursor: pointer; /* Curseur de type pointeur */
+        border-radius: 5px; /* Bordure arrondie */
+        font-size: 16px; /* Taille de la police */
+    }
+
+    button.copy-button:hover {
+        background-color: red; /* Couleur de fond au survol */
+        border-width: 5px 10px 10px 5;
+        border-color: blue lime blue lime;/* Pas de bordure */
+        border-style: solid;
+        border-radius: 5px; 
+    }
+  </style>
+  <link rel="stylesheet" href="ano.css">
+</head>
+<body>
+  <div class="profile-container">
+    
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="profile-card">
+      <h1>Trhacknon</h1>
+      <p>Hacktiviste, Hacker, Anonymous Rainbow Hat</p>
+      <p>Je connais le développement web, la programmation entre autre Python, Golang, Node.js, PHP, et plus encore...</p>
+      <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">Golang</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">PHP</div>
+        <div class="skill">HTML/CSS</div>
+        <div class="skill">JavaScript</div>
+      </div>
+    </div>
+    <div id="content">
+        <!-- Le paragraphe sera ajouté ici par JavaScript -->
+    </div>
+    <script src="ano.js"></script>
+    <div class="wrapper">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 213.8 194.2" style="enable-background:new 0 0 213.8 194.2;" xml:space="preserve">
+      <g class="body">
+      <path d="M4,0.2c20.5,6.5,36.4,19.7,50.9,35c2,2.1,3.6,1.6,5.7,0.9c15.6-5.2,31.2-6.2,46.4,1.3
+        c1.8,0.9,2.7,0.2,3.9-0.7c19.4-15,41.9-18.8,66.4-18.7c-6,8.3-13,14.4-20.8,19.7c-8.7,5.9-18.1,10.3-28.4,12.7
+        c-3.3,0.8-5.1,1.5-3.3,5.7c3,7.3,3.4,15.2,3.9,23c1.2,16.8,5.5,33,8.9,49.3c1.6,7.4,3.6,14.8,4.3,22.4c1,10.5-2.4,20.2-10.5,27
+        c-6.9,5.8-13.3,12.3-21.5,16.4c-1.7,0-3.3,0-5,0c-2.5-1.2-3.4-3.1-2.6-5.7c0.9-2.8-0.6-4-3.1-4.5c-11.4-2.4-22.8-1.8-34.2,0
+        c-1.7,0.3-2.9,1.5-4.2,2.6c-2.9,2.6-6.3,4.3-10.1,5.2c-2.2,0.6-4.4,0.5-5.9-1.5c-1.4-1.8-1.4-4.1-0.2-5.6c3.2-4.2,2.1-7.3-0.7-11.4
+        c-4.3-6.2-4.4-13.2-0.8-19.9c2.2-4.1,1.9-7.5-0.2-11.7c-5.6-11.2-6.2-22.7,0.2-33.9c1.3-2.3,1-3.9-0.6-5.8c-3-3.6-6-7.2-8-11.4
+        c-1.9-4-2.5-7.9,0.4-11.8c1.8-2.3,2.4-5.1,2.8-7.9c1-5.7,1.1-11.7,3.1-17.2c1.3-3.5,0.3-5.5-2.9-7.3c-11.6-6.8-21.3-15.9-29-27
+        C5.3,14,1.6,8.6,0,2.2C-0.3-1.8,2.8,1,4,0.2z"/>
+      <path class="st0" d="M59.1,147.4c0.4,0.8,0.1,1.3-0.7,1.5c-0.2,0.1-0.5,0.2-0.6,0.3c-1,0.6-1.7,0.3-2.2-0.6
+        c-0.5-0.1-0.4,0.3-0.3,0.5c0.1,0.7-0.3,0.8-0.8,0.7c-2.3-0.3-4.3-1-5.6-3.1c-4.2-7-7-14.3-7.3-22.6c-0.2-6.1,1.3-11.7,4.9-16.7
+        c0.5-0.7,0.8-0.9,1.6-0.3c1.8,1.2,3.7,2,5.9,2.4c-0.1-0.5-0.5-0.6-0.8-0.7c-1.8-1.3-3.4-2.8-4.6-4.7c-0.7-1.1-1.8-1.9-2.6-2.8
+        c-2.1-2.2-4.1-4.4-5.8-6.8c-0.4-0.6-0.4-0.8,0.3-1.2c1.4-0.6,2.2-1.8,2.7-3.2c1.2-3.3,1-6.6-0.4-9.8c-0.6-1.3-1.4-2.3-3-2.5
+        c-0.5-0.1-0.5-0.2-0.3-0.6c2-3.6,2.1-7.4,2.1-11.4c0-4.6,1.4-8.9,2.6-13.2c0.8-2.8,1.6-5.7,3.7-8c-0.9,0.3-1.6,0.8-2.1,1.4
+        c-0.7,1-1.4,0.8-2.3,0.3c-7.1-3.7-13.4-8.5-19.5-13.7c-3.3-2.8-4.8-6.2-5.4-10.3c-0.6-4-0.9-8-0.9-12.1c0-1.3,0-1.3,1.1-0.7
+        c7.8,4.5,14.7,10.1,21.4,15.9c4.6,4.1,9.1,8.3,13.1,13c0.9,1,1.6,1.2,2.8,0.7c4.4-1.8,8.9-3.1,13.6-4c10.5-1.9,20.8-1.7,30.8,2.2
+        c2,0.8,3.9,1.7,5.7,2.8c1,0.6,2,0.5,2.8-0.3c9.9-9.1,21.9-14.1,34.8-17.2c3.3-0.8,6.6-1.4,9.9-1.9c0.3,0,1.2-0.5,1,0.5
+        c-1.2,6.5-3.2,12.6-7,18.1c-0.7,1-1.5,1.7-2.6,2.2c-7.9,4.2-16.2,7.2-25.1,8.6c-0.3,0.1-0.6,0.1-0.9,0.3c-0.4,0.2-1,0.3-0.9,0.8
+        c0,0.4,0.4,0.7,0.8,1c0.9,0.5,1.2,1.3,1.6,2.2c1.1,2.7,1.5,5.5,2.2,8.3c1.3,5.8,1.7,11.7,2,17.6c0.4,8,2,15.8,3.6,23.6
+        c0.6,2.8,1.1,5.6,1.7,8.3c0.1,0.6,0,0.9-0.7,1.1c-1.7,0.5-3.3,1.1-4.9,1.9c-0.9,0.4-1.7,0.8-2.5,1.5c-1,0.9-1.1,1.9-0.3,2.9
+        c0.6,0.9,1.5,1.4,2.5,1.8c2.3,1,4.6,1.5,7.1,1.6c0.8,0,1.1,0.3,1.3,1.1c1.3,6,2.7,11.9,4.1,17.9c0.2,0.8,0,1.1-0.8,1.3
+        c-1.7,0.4-3.3,1-4.8,1.8c-0.7,0.3-1.3,0.7-1.9,1.2c-1.4,1.3-1.4,2.7,0.1,3.8c1.4,1.1,3.1,1.5,4.8,1.9c1.1,0.2,2.2,0.4,3.3,0.5
+        c0.6,0.1,0.8,0.2,0.8,0.9c-0.5,8.6-3.2,16.3-9.2,22.6c-0.3,0.3-0.7,0.6-1.1,1c-0.5,0.3-1,0.3-1.5,0.3c-5.3,0.1-10.6,0-15.8-0.3
+        c-4.9-0.2-9.7-0.5-14.5-1.4c-2.1-0.4-4-1.1-5.9-2.3c-4.6-3.1-9.6-5.5-15.2-6.2c-3.1-0.4-5.9,0.2-8.4,2c-5.5,4.1-11.6,4.9-18.1,3.9
+        c-0.6-0.1-1.2-0.3-1.6-0.7c-2.9-4-3.6-8.5-2.9-13.3c0.5-3.3,1.9-6.3,3.7-9.2c0.4-0.6,0.6-0.7,1.3-0.3c4.1,2.6,8.2,2.3,12.2-0.2
+        c1.7-1.1,2.6-2.6,2.9-4.7c1.1-8.5,0.7-16.9-2.3-25.1c-0.3-0.8-0.6-1.5-0.9-2.2c-0.3-0.6-0.5-1.4-1.4-1c-0.9,0.4-0.8,1.1-0.4,1.9
+        c1,2.3,1.8,4.8,2.3,7.3c1.3,6,1.4,12.1,0.6,18.3c-0.1,0.8-0.3,1.5-0.7,2.2c-0.7,1.3-0.8,1.3-2,0.5C58.8,146.8,59,147.1,59.1,147.4z
+        "/>
+      <path class="st1" d="M46.9,172.8c6.9,1.5,13.4,0.9,19.3-3.4c3.1-2.3,6.5-2.7,10.2-2c5.6,1.1,10.5,3.6,15.1,6.9
+        c1.3,0.9,2.9,1.2,4.4,1.4c4.3,0.7,8.6,1,12.9,1.3c6.3,0.4,12.7,0.4,19,0.4c-1.3,1.4-2.7,2.5-4.4,3.3c-2.4,1.3-4.4,3.1-6.2,5
+        c-2.9,3-4.8,4.4-7.3,5.3c0.2-1.3,0.9-2.3,1.8-3.3c-1.2-0.3-1.8,0.4-2.4,1.1c-0.5,0.7-0.9,1.5-1.1,2.4c-0.2,0.9-0.9,1-1.4,0.9
+        c-0.5-0.1-0.2-0.7-0.1-1.1c0.2-1.6,0.5-3.2,2.1-4.1c0.2-0.1,0.4-0.2,0.3-0.5c-0.1-0.2-0.3-0.2-0.5-0.2c-1.1,0.2-1.9,0.9-2.6,1.8
+        c-0.7,1.1-0.9,2.5-1.2,3.8c-0.8-0.7-0.7-1.5-0.5-2.2c0.4-2.1,1.5-3.8,2.8-5.4c0.5-0.6,0.4-0.9-0.4-1.2c-6.6-2-13.2-3.9-20.2-3.9
+        c-4.8,0-9.6,0.5-14.4,0.9c-3,0.3-6,0.6-9,0.5c-1.2,0-2.3,0.1-3.4,0.5c-1.1,0.4-2.2,0.5-3.6,0.5c0.7,0.5,1.4,0.5,2.2,0.7
+        c-1.7,1.7-2.8,3.8-5.2,4.8c0.1-0.5,0.7-0.8,0.2-1.2c-0.5-0.3-0.9-0.2-1.3,0.1c-1,0.9-2,1.7-3,2.6c-0.3,0.2-0.5,0.5-0.9,0.6
+        c-0.5,0-1.1,0.2-1.4-0.2c-0.3-0.4,0.3-0.7,0.5-1.1c0.9-1.2,1.9-2.2,3.2-3c-1.9-0.3-3,1.2-4.3,2.3c0.1-1,0.4-1.7,0.8-2.4
+        c1.1-2.3,2.5-4.4,4-6.4c0.6-0.7,0.5-1.1-0.2-1.6C49.3,175.7,48,174.4,46.9,172.8z"/>
+      <path class="st2" d="M35.8,85.5c0-2,0.3-3.9,1.6-5.5c0.9-1.1,1.7-1.1,2.6,0c2.3,2.6,2.4,8.5,0.3,11.3
+        c-1,1.3-1.8,1.3-2.9,0C36.1,89.6,35.8,87.6,35.8,85.5z"/>
+      <path class="st3" d="M131,122.4c-2.2-0.3-4.3-0.6-6.3-1.5c-0.7-0.3-1.4-0.7-1.9-1.2c-1.1-1-1.1-1.6,0.2-2.5
+        c2.1-1.4,4.5-2.1,6.8-2.9c0.5-0.2,0.6,0.1,0.7,0.5c0.5,2.3,1,4.6,1.5,6.9C132.2,122.9,131.2,122.1,131,122.4z"/>
+      <path class="st4" d="M138.3,151.3c0.1,0.6-0.3,0.8-1.3,0.7c-1.9-0.3-3.8-0.7-5.6-1.4c-0.5-0.2-0.9-0.4-1.4-0.7
+        c-1.2-0.9-1.3-1.7-0.1-2.7c1.4-1.1,3-1.6,4.6-2.2c2.7-0.9,2.7-0.9,3.2,1.9C138,148.2,138.1,149.5,138.3,151.3z"/>
+      <path class="st5" d="M59.1,147.4c-0.2-0.3-0.3-0.5-0.5-0.9c0.4-0.2,0.6,0,0.8,0.3
+        C59.1,146.9,59.1,147.2,59.1,147.4z"/>
+      <path class="st6" d="M141,152.6c0.3-0.3,0.5-0.4,0.9-0.4C141.7,152.6,141.4,152.6,141,152.6z"/>
+      <path class="st7" d="M55.2,149.1c-0.2-0.2-0.3-0.5-0.1-0.8c0.1-0.1,0.3,0.1,0.4,0.3
+        C55.2,148.6,55.3,148.9,55.2,149.1z"/>
+      <path d="M85.1,147.7c0.6-0.2,1-0.7,1.7-0.8c-0.3,0.9-1.5,1.7-0.3,2.7c0.6,0.5,1,1.4,1.7,1.4c0.6,0.1,1-0.9,1.8-1
+        c0,0.1,0.1,0.1,0.1,0.2c-0.3,0.7-1.1,1.4-0.5,2c1,0.9,2.3,1.5,3.7,1.2c0.3-0.1,0.7-0.2,1-0.4c5.2-3.1,10.2-6.4,14.8-10.3
+        c2.9-2.5,5.5-5.3,7.2-8.7c0.3-0.6,0.7-1,1.4-0.7c0.7,0.4,0.8,1,0.4,1.6c-1.5,3-3.6,5.5-5.9,7.8c-2.9,2.8-6.2,5.3-9.6,7.5
+        c-2.1,1.4-4.3,2.8-6.4,4.3c-2.1,1.5-4.3,1.5-6.5,0.3c-2.3-1.3-4.2-2.9-5.7-5c-1.1-1.5-1.5-3.1-1.4-5c0.3-4.5,1.4-8.8,3.2-13
+        c2.8-6.5,6.5-12.4,11.3-17.6c0.3-0.4,0.7-0.7,1-1c0.4-0.4,0.9-0.3,1.3,0.1c0.4,0.4,0.5,0.8,0.1,1.3c-0.2,0.3-0.5,0.5-0.7,0.8
+        c-6,6.6-10.6,14.1-13,22.8c-0.6,2-1,4.1-1.2,6.2C84.4,145.6,84.5,146.7,85.1,147.7z"/>
+      <path d="M107.5,80.6c5.4,0,9.5,4.1,9.4,9.2c-0.1,5.2-4.7,9.5-10.3,9.4c-4.8-0.1-9.1-4.4-9.1-9.1
+        C97.7,84.6,101.9,80.6,107.5,80.6z"/>
+      <path class="st1" d="M72.4,114c2.1,0,4.2,0.1,6.2,0c1.1,0,1.1,0.6,1,1.4c-0.4,2.3-2.5,4.1-5.1,4.4
+        c-3.9,0.4-6.9-1.2-9-4.5c-0.2-0.3-0.6-0.7-0.4-1.1c0.2-0.4,0.7-0.2,1.1-0.2C68.4,114,70.4,114,72.4,114z"/>
+      <path class="st8" d="M73.4,91.2c-1.3,0.1-2.5-0.3-3.4-1.2c-2.1-2.1-4.5-2.4-7.1-1.1c-1.1,0.5-2.3,0.7-3.5,0.6
+        c-1.4-0.1-2.4-0.8-3-2.1c-0.2-0.5-0.3-0.9,0.2-1.2c0.5-0.3,1-0.2,1.3,0.3c0.7,1.4,1.9,1.3,3.1,1.1c1.3-0.2,2.6-0.6,3.8-1
+        c1.9-0.6,3.5-0.3,5.1,0.8c0.5,0.3,1.1,0.7,1.6,1.1c2,1.2,3.2,1.2,5.1-0.1c0.2-0.1,0.3-0.2,0.5-0.4c0.5-0.4,1-0.3,1.4,0.2
+        c0.4,0.5,0.1,0.9-0.3,1.2C76.8,90.5,75.2,91.2,73.4,91.2z"/>
+      <path class="st9" d="M66.1,80.6c-0.4-0.1-1.1-0.2-1.7-0.4c-0.2-0.1-0.5,0-0.5-0.4c0-0.3,0.2-0.4,0.5-0.5
+        c0.6-0.3,1.2-0.5,1.8-0.3c0.7,0.2,1.3,0.4,2,0.2c0.3-0.1,0.6-0.1,0.7,0.2c0.1,0.4-0.3,0.5-0.5,0.6C67.7,80.4,67,80.5,66.1,80.6z"/>
+      <path class="st2" d="M99.6,89.3c0-4.1,3.5-7.4,7.8-7.4c4,0,7.5,3.8,7.5,8c0,4.3-3.5,7.8-7.8,7.8
+        C103,97.7,99.6,93.9,99.6,89.3z"/>
+    </g>
+    <g class="eye eye-left">
+      <path id="XMLID_11_" d="M55.5,69.3c0,1.7-0.5,3.3-1.7,4.6c-2.2,2.5-5.8,2.5-7.9-0.1c-2-2.4-2.1-6.3-0.2-8.8
+        c2.2-2.9,6.1-2.9,8.3-0.1C55,66.2,55.5,67.6,55.5,69.3z"/>
+      <path id="XMLID_10_" class="st10" d="M48.4,64.8c0.9,0,1.5,0.5,1.5,1.3c0,0.8-0.4,1.4-1.3,1.4c-0.8,0-1.4-0.4-1.4-1.3
+        C47.2,65.3,47.7,64.9,48.4,64.8z"/>
+    </g>
+    <g class="eye eye-right">
+      <path id="XMLID_96_" d="M103.8,70.6c0,3.7-3,6.6-6.6,6.6c-3.7,0-6.6-3-6.6-6.6c0-3.7,3-6.6,6.6-6.6C100.9,64,103.8,66.9,103.8,70.6
+        z"/>
+      <path id="XMLID_90_" class="st11" d="M94.8,66.1c0.8,0.1,1.4,0.5,1.4,1.3c0,0.8-0.5,1.4-1.3,1.4c-0.8,0-1.4-0.5-1.4-1.3
+        C93.5,66.7,94,66.2,94.8,66.1z"/>
+    </g>
+  </svg>
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 75.5 115.7" style="enable-background:new 0 0 75.5 115.7;" xml:space="preserve" class="tail">
+    <g>
+      <path id="XMLID_7_" d="M75.5,38.6C62,43.7,48.2,48.2,34.4,52.3c-2.5,0.7-3,1.5-2.3,4.2c1.3,4.6,2.7,9.2,4.7,13.5
+        c1.2,2.7,0.4,4.1-2,5c-2.9,1.1-5.8,2.4-8.9,3c-3.3,0.7-3.9,2.5-3.2,5.4c0.8,3.7,4,7.7,2.4,10.7c-1.6,2.9-6.1,4.1-9.4,6.1
+        c-1.1,0.7-2.1,1-1.5,2.9c0.7,2.6,3.9,5.3,1.1,8.1c-2.1,2.1-5.1,2.9-8.1,3.6c-0.6,0.1-1.2,0.6-1.8,0.9c-5.5-0.1-4-4.5-4.6-7.6
+        c0.3-1,1.2-1.6,1.8-2.3c1.4-1.8,0.5-3.6-0.1-5.2C1,96.9,1.9,94,5.4,92.1c4-2.2,5-5,2.5-9c-0.4-0.6-0.5-1.2-0.7-1.9
+        c-2.9-7.9-2.6-8.6,5.1-12c0.6-0.3,1.2-0.5,1.8-0.8c4.6-2,4.7-2.4,1.9-6.4c-4.9-7.1-9.5-14.5-13.9-21.9c-3.4-5.6-2.9-7.3,2.6-11
+        c14.8-10,30.4-18.6,45.8-27.4c4.9-2.8,6.4-2.3,9.2,2.6c5.8,10.4,11.7,20.9,15.7,32.2C75.5,37.3,75.5,38,75.5,38.6z"/>
+      <path id="XMLID_6_" class="st0" d="M11.5,81.3c-1-2.4-1.6-4.9-2.4-7.4c-0.3-0.8,0.3-0.9,0.8-1c4.3-1.8,8.6-3.7,12.9-5.5
+        c0.3-0.1,0.7-0.3,1-0.4c0.5-0.2,0.7-0.6,0.3-1.1c-0.2-0.3-0.4-0.7-0.7-1C16.2,55.5,10.1,45.4,4,35.4c-0.8-1.3-0.7-1.7,0.6-2.7
+        c6.7-5.2,14-9.4,21.2-13.8C35,13.3,44.5,8,53.9,2.7c0.6-0.4,1-0.4,1.4,0.3c6,10.9,11.5,22,17,33.2c0,0.1,0,0.2,0.1,0.2
+        c-0.1,0.6-0.7,0.5-1,0.5c-2.1,0.5-4.2,0.3-6.3,0.4c-7.4,0.4-14.7,1-22.1,1.9c-6.1,0.7-12.1,1.6-18.1,3.1c-1.4,0.3-2.7,0.8-4,1.3
+        c-0.9,0.3-1.2,0.9-1,1.9c2,7.4,4,14.7,7.1,21.7c0.3,0.8,0.8,1.5,1.2,2.2c0.6,1.1,0.4,1.6-0.9,1.8c-3.6,0.6-7.3,1.1-10.9,1.9
+        c-0.9,0.2-1.9,0.4-2.8,0.7c-0.8,0.2-1.2,0.7-1.2,1.6c-0.1,1.6-0.3,3.1-0.3,4.7C12.1,80.6,12.2,81.2,11.5,81.3z"/>
+      <path id="XMLID_5_" class="st1" d="M11.5,81.3c0.4-0.3,0.3-0.6,0.3-1c-0.1-1.7,0.2-3.4,0.3-5.1c0-0.9,0.4-1.4,1.3-1.6
+        c3.6-1,7.2-1.6,10.9-2.2c1.2-0.2,2.4-0.3,3.5-0.5c0.6-0.1,0.7-0.4,0.3-0.9c-3.4-6-5.2-12.6-7.1-19.1c-0.6-1.9-1-3.9-1.6-5.8
+        c-0.2-0.8,0-1.2,0.7-1.5c2.6-1.2,5.3-1.8,8.1-2.4c4.3-1,8.7-1.6,13-2.1c3.4-0.4,6.8-0.7,10.2-1c4.7-0.4,9.4-0.7,14.2-1
+        c2-0.1,4,0.1,5.9-0.4c0.3-0.1,0.6,0,0.8-0.2c0.5,0.7-0.3,0.6-0.5,0.7c-5.2,2.3-10.5,4.2-15.9,6c-8.4,2.9-17,5.4-25.5,7.9
+        c-1.9,0.6-1.9,0.6-1.5,2.5c1,5.8,3.2,11.3,5.2,16.8c0.7,1.8,0.7,1.8-1,2.6c-3.7,1.8-7.6,2.9-11.5,4.2c-2.1,0.7-2.1,0.7-1.9,2.9
+        c0.1,0.5,0,1,0.1,1.4c-0.1,1-0.6,1.4-1.4,0.9c-0.5-0.3-0.6-0.2-0.9,0.1c-0.5,0.5-1.1,0.1-1.7,0c-0.5-0.1-0.4-0.7-0.3-1.1
+        c-0.1,0.1-0.1,0.2-0.2,0.3C15,82.2,14.9,83,14.2,83c-0.8-0.1-0.7-0.9-0.9-1.4c-0.3,0.6-0.3,1.5-1.2,1.6
+        C11.7,82.6,11.5,82,11.5,81.3z"/>
+      <path id="XMLID_4_" class="st12" d="M20.1,83.7c0.9,3,1.8,6,2.7,8.9c0.2,0.7,0.1,1-0.6,1.3c-3.7,1.9-7.3,3.9-11,5.8
+        c-0.6,0.3-0.7,0.7-0.4,1.4c1,2.3,1.8,4.6,2.6,7c0.3,1.1,0,1.7-1,2.1c-3,1.1-5.9,2.1-8.9,3.2c-0.6,0.2-0.9,0.2-0.9-0.6
+        c0-1,0-2-0.3-3c-0.2-0.9,0.2-1.3,0.9-1.6c1.7-0.8,3.4-1.6,5.1-2.4c0.8-0.4,0.9-0.8,0.4-1.6c-1.7-2.6-2.6-5.5-3.6-8.4
+        c-0.4-1,0.3-1.7,1-2.2c2.2-1.7,4.6-3,7-4.4c0.3-0.2,0.6-0.3,0.8-0.5c0.6-0.4,0.7-0.7,0.3-1.4c-0.7-0.9-1.2-1.9-1.6-3
+        c-0.1-0.4,0-0.7,0.4-0.8c0.3-0.1,0.5,0.2,0.6,0.5c0.2,0.5,0.4,0.4,0.8,0.1c0.5-0.3,1.2-0.9,1.7,0.1c0.1,0.3,0.2,0.1,0.3,0
+        c0.9-0.9,1.1-0.3,1.1,0.6c0.3-0.3,0.4-0.7,0.7-0.9c0.3-0.3,0.7-0.6,1-0.2C19.7,84.3,19.8,83.6,20.1,83.7z"/>
+      <path id="XMLID_3_" class="st13" d="M20.1,83.7c-0.3,0.2-0.1,0.5-0.3,0.8c-1.8-1.6-1.5,0.8-2.4,1.2c0-0.5-0.1-1-0.1-1.6
+        c-0.7,0.1-0.6,1-1.2,1.1c-0.3-0.3,0-0.7-0.2-1.1c-0.8,0-1.4,0.4-1.7,1.2c-0.5-0.2-0.4-0.6-0.5-0.9c-0.1-0.2-0.1-0.6-0.4-0.5
+        c-0.2,0-0.3,0.4-0.4,0.6c-0.2-0.4-0.4-0.8-0.7-1.2c0.7-0.5,0.6-1.4,1.3-2c0.2,0.6,0.4,1.1,0.7,1.8c0.8-0.6,0.9-1.6,1.5-2.3
+        c0.5,0.6-0.2,1.6,0.5,1.7s1.7,0.2,1.9-0.8c0.8-0.3-0.2,0.9,0.8,0.6c0.5-0.1,0.8-0.2,1-0.7C20,82.2,20,83,20.1,83.7z"/>
+      <path id="XMLID_2_" class="st14" d="M5.9,105c0.4,0.3,0.2,0.4-0.1,0.6c-1.1,0.5-2.2,1-3.2,1.5c-0.8,0.4-0.9-0.1-0.8-0.7
+        C3.2,106.2,4.5,105.4,5.9,105z"/>
+    </g>
+  </svg>
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 185.8 186.3" style="enable-background:new 0 0 185.8 186.3;" xml:space="preserve" class="circle">
+    <circle class="st15" cx="92.8" cy="93.2" r="93"/>
+    <circle class="st16" cx="92.8" cy="93.2" r="80"/>
+  </svg>
+</div>
+
+          <footer>
+              <div id="contact">
+                  <h2 style="color: #00ff00; text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;">Contact</h2>
+                  <p class="contact-info">Telegram: <a href="https://t.me/trhacknon">t.me/trhacknon</a> <button class="copy-button" onclick="copyToClipboard('t.me/trhacknon')">Copy</button></p>
+                  <p class="contact-info">Mail: trhacknon@gtfcy37qyzor7kb6blz2buwuu5u7qjkycasjdf3yaslibkbyhsxub4yd.onion <button class="copy-button" onclick="copyToClipboard('trhacknon@gtfcy37qyzor7kb6blz2buwuu5u7qjkycasjdf3yaslibkbyhsxub4yd.onion')">Copy</button></p>
+                  <img src="qrmail.png" alt="Mail QR Code" class="instagram-qrcode">
+                  <p class="contact-info">Wickr: ktm2590@my.com <button class="copy-button" onclick="copyToClipboard('ktm2590@my.com')">Copy</button></p>
+                  <p class="contact-info">WhatsApp: <a href="https://wa.me/18056009130">18056009130</a> <button class="copy-button" onclick="copyToClipboard('18056009130')">Copy</button></p>
+                  <p class="contact-info">Instagram: <a href="https://www.instagram.com/brig1d3sint3rn1ti0n1ll3s?ig_sh=MWIxMXV6N3k0dnhhag==">brig1d3sint3rn1ti0n1ll3s</a> <button class="copy-button" onclick="copyToClipboard('brig1d3sint3rn1ti0n1ll3s')">Copy</button></p>
+                  <img src="qrinsta.png" alt="Instagram QR Code" class="instagram-qrcode">
+              </div>
+          </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js'></script>
+    <script src="./script.js"></script>
+    <script src="./efek.js"></script>
+
+  <script type='text/javascript'>
+  // Anti Clic Droit Personnalisé
+  var message = "Clic droit interdit par trhacknon. Désolé !"; // Message personnalisé
+  function clickIE4() {
+      if (2 == event.button) {
+          showAlert(message);
+          return false;
+      }
+  }
+  function clickNS4(e) {
+      if ((document.layers || document.getElementById && !document.all) && (2 == e.which || 3 == e.which)) {
+          showAlert(message);
+          return false;
+      }
+  }
+  document.layers ? (document.captureEvents(Event.MOUSEDOWN), document.onmousedown = clickNS4) : document.all && !document.getElementById && (document.onmousedown = clickIE4);
+  document.oncontextmenu = new Function("showAlert(message); return false;");
+  function showAlert(message) {
+      var alertBox = document.createElement("div");
+      alertBox.className = "custom-alert";
+      alertBox.innerHTML = message;
+      var alertImage = document.createElement("img");
+      alertImage.src = "https://c.top4top.io/p_28244rnme0.jpeg";
+      alertImage.className = "alert-image";
+      alertBox.appendChild(alertImage);
+      // Ajouter l'audio
+      var audio = document.createElement("audio");
+      audio.src = "https://d.top4top.io/m_2824akq1l0.mp3"; // Chemin du fichier audio
+      audio.autoplay = true; // Lecture automatique de l'audio
+      alertBox.appendChild(audio);
+      document.body.appendChild(alertBox);
+      setTimeout(function () {
+          document.body.removeChild(alertBox);
+      }, 4000); // Disparaît après 4 secondes (ajustez la durée selon vos préférences)
+  }
+
+    function copyToClipboard(text) {
+        const el = document.createElement('textarea');
+        el.value = text;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+
+        // Créer et styler l'alerte
+        const alertBox = document.createElement('div');
+        alertBox.textContent = 'Copied to clipboard: ' + text;
+        alertBox.className = 'custom-alertt';
+        document.body.appendChild(alertBox);
+
+        // Supprimer l'alerte après un délai
+        setTimeout(() => {
+            document.body.removeChild(alertBox);
+        }, 2000); // Supprime l'alerte après 2 secondes (ajustez selon vos préférences)
+    }
+    </script>
+</body>
+</html>
