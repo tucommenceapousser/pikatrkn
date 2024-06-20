@@ -167,6 +167,7 @@
 <body>
   <div id="lightning-overlay"></div>
    <audio id="thunder-sound" src="thunder.mp3"></audio>
+<audio id="background-thunder" src="thunderain.mp3" loop></audio>
   <div class="profile-container">
     
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -387,6 +388,22 @@
             document.body.removeChild(alertBox);
         }, 2000); // Supprime l'alerte après 2 secondes (ajustez selon vos préférences)
     }
+
+function playBackgroundThunder() {
+    const backgroundThunder = document.getElementById('background-thunder');
+    if (backgroundThunder) {
+        backgroundThunder.volume = 0.5; // Adjust volume as needed
+        backgroundThunder.play().then(() => {
+            console.log("Background thunder sound played successfully");
+        }).catch(error => {
+            console.error("Error playing background thunder sound:", error);
+        });
+    } else {
+        console.error("Background audio element not found");
+    }
+}
+
+    
     function triggerLightning(color) {
         const overlay = document.getElementById('lightning-overlay');
         const thunderSound = document.getElementById('thunder-sound');
