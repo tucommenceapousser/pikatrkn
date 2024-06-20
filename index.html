@@ -39,6 +39,7 @@
   <!-- Preload resources -->
   <link rel="preload" href="https://pikatrkn.replit.app/prev.png" as="image">
   <link rel="preload" href="thunder.mp3" as="audio">
+<link rel="preload" href="thunderain.mp3" as="audio">
 
 
   <!-- Favicon -->
@@ -453,7 +454,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Attempt to play a silent sound to bypass autoplay policy
     const backgroundThunder = document.getElementById('background-thunder');
     if (backgroundThunder) {
-        backgroundThunder.volume = 0;
+        backgroundThunder.volume = 0.5;
         backgroundThunder.play().then(() => {
             console.log("Silent sound played to initialize audio context");
             backgroundThunder.pause();
