@@ -127,26 +127,38 @@
         border-style: solid;
         border-radius: 5px; 
     }
+
     #lightning-overlay {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: white;
         opacity: 0;
         pointer-events: none;
     }
 
+    .red-flash {
+        background: red;
+    }
+
+    .gold-flash {
+        background: gold;
+    }
+
+    .purple-flash {
+        background: purple;
+    }
+
     @keyframes lightning-flash {
-        0%,
-        100% {
+        0%, 100% {
             opacity: 0;
         }
         50% {
             opacity: 1;
         }
     }
+    
   </style>
   <link rel="stylesheet" href="ano.css">
 </head>
@@ -373,10 +385,29 @@
             document.body.removeChild(alertBox);
         }, 2000); // Supprime l'alerte après 2 secondes (ajustez selon vos préférences)
     }
-    function triggerLightning() {
+    function triggerLightning(color) {
         const overlay = document.getElementById('lightning-overlay');
+        const thunderSound = document.getElementById('thunder-sound');
+
+        // Remove all color classes
+        overlay.classList.remove('red-flash', 'gold-flash', 'purple-flash');
+
+        // Add the chosen color class
+        overlay.classList.add(color);
+
         overlay.style.animation = 'lightning-flash 0.2s linear';
         overlay.style.opacity = 1;
+
+        // Play the thunder sound
+        if (thunderSound) {
+            console.log("Playing thunder sound");
+            thunderSound.currentTime = 0;
+            thunderSound.play().catch(error => {
+                console.error("Error playing sound:", error);
+            });
+        } else {
+            console.error("Audio element not found");
+        }
 
         // Reset animation by removing and adding the class
         setTimeout(() => {
@@ -386,13 +417,24 @@
     }
 
     function startLightning() {
-        setInterval(() => {
-            const delay = Math.random() * 5000; // Random delay between 0 and 5000 milliseconds
-            setTimeout(triggerLightning, delay);
-        }, 5000);
+        const delay = Math.random() * 8000 + 4000; // Random delay between 1000 and 6000 milliseconds
+        setTimeout(() => {
+            const colors = ['red-flash', 'gold-flash', 'purple-flash'];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            triggerLightning(randomColor);
+
+            // Call startLightning again for the next lightning
+            startLightning();
+        }, delay);
     }
 
     document.addEventListener('DOMContentLoaded', startLightning);
-    </script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.body.addEventListener('click', () => {
+            playTestSound();
+            startLightning();
+        }, { once: true }); // Ensure it only runs once on the first click
+    });
+  </script>
 </body>
 </html>
