@@ -38,6 +38,8 @@
 
   <!-- Preload resources -->
   <link rel="preload" href="https://pikatrkn.replit.app/prev.png" as="image">
+  <link rel="preload" href="thunder.mp3" as="audio">
+
 
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -430,7 +432,7 @@
 
     document.addEventListener('DOMContentLoaded', startLightning);
     document.addEventListener('DOMContentLoaded', () => {
-        document.body.addEventListener('load', () => {
+        document.body.addEventListener('click', () => {
             startLightning();
         }, { once: true }); // Ensure it only runs once on the first click
     });
